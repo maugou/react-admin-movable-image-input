@@ -2,14 +2,39 @@
   "name": "@maugou/react-admin-movable-image-input",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "dev.hoony@gmail.com"
+    "url": ""
   },
-  "author": "",
-  "license": "ISC"
+  "author": "maugou",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "~2.2.5",
+    "react-dropzone": "^10.1.7"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/styles": "^4.3.3",
+    "final-form": "^4.18.5",
+    "final-form-arrays": "^3.0.1",
+    "ra-core": "^3.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-final-form": "^6.3.3",
+    "react-final-form-arrays": "^3.1.1",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.1.0",
+    "react-router-dom": "^5.1.0",
+    "redux": "^3.7.2 || ^4.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "typescript": "^4.0.2"
+  }
 }
