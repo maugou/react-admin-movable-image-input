@@ -1,5 +1,7 @@
 # react-admin-movable-image-input
 
+![](./images/example-movable-image-input.gif)
+
 ## Installation
 
 ```
