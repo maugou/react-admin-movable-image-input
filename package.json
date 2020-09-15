@@ -1,6 +1,6 @@
 {
   "name": "@maugou/react-admin-movable-image-input",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": ""
   },
   "author": "maugou",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "classnames": "~2.2.5",
     "react-dropzone": "^10.1.7"
