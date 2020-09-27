@@ -22,7 +22,6 @@
  * SOFTWARE.
  */
 
-//@ts-nocheck
 import React, {
   FunctionComponent,
   Children,
@@ -30,12 +29,14 @@ import React, {
   isValidElement,
   ReactElement,
 } from "react";
+//@ts-ignore
 import { Labeled, InputHelperText } from "react-admin";
 import { shallowEqual } from "react-redux";
 import { useDropzone, DropzoneOptions } from "react-dropzone";
 import { makeStyles } from "@material-ui/core/styles";
 import FormHelperText from "@material-ui/core/FormHelperText";
 import classnames from "classnames";
+//@ts-ignore
 import { useInput, useTranslate, InputProps } from "ra-core";
 import { MovableImageInputPreview } from "./MovableImageInputPreview";
 
